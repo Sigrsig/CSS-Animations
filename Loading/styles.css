@@ -6,7 +6,7 @@
     height:500px;
 	border-radius: 50%;
 	border: 100px solid;
-	border-color: #000000;
+	border-color: #ffffff;;
 	
 	position: fixed;
 	top: 50px;
@@ -31,7 +31,7 @@
   }
 }
 #center {
-		background-color: #000000;
+		background-color: #ffffff;
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -42,7 +42,7 @@
 }
 
 .spin1, .spin2, .spin3{
-	background-color: #000000;
+	background-color: #ffffff;
 	clip-path: polygon(40% 0%, 60% 0%, 100% 100%, 0% 100%);
 	width: 150px;
 	height: 275px;
@@ -51,16 +51,16 @@
 	top: 400px;
 	left: 325px;
 
-	animation: spinny 3s linear infinite;
+	animation: spinny 6s linear infinite;
 	transform-origin: top;
 
 }
 
 .spin2 {
-  animation-delay: -1s;
+  animation-delay: -2s;
 }
 .spin3 {
-  animation-delay: -2s;
+  animation-delay: -4s;
 
 }
 
