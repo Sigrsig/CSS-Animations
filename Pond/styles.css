@@ -1,0 +1,62 @@
+.icon {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 325px;
+	left: 325px;
+	pointer-events:none;
+}
+
+.beat{
+	background-color: rgba(167,175,239,1.00);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: 300px;
+	left: 300px;
+}
+
+.beat:hover{
+	animation-name: test ;
+	animation-duration: 500ms;
+	animation-fill-mode: forwards;
+	
+}
+
+@keyframes test {
+	100% {
+		transform: scale(5) ; 
+	}
+}
+
+.bubble {
+	background-color: #FFFFFF;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: 299px;
+	left: 299px;
+
+
+	border: 1px solid rgba(167,175,239,1.00);
+	z-index: -1;
+	
+	animation-name: bloom;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes bloom {
+	75% {
+		border-color: rgba(255,255,255,0.00);
+	}
+	
+	100% {
+		transform: scale(5);
+		border-color: rgba(255,255,255,0.00);
+	}		
+}
+
